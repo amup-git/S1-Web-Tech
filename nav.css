@@ -1,0 +1,126 @@
+nav {
+  border-top: 3px solid orange;
+  padding: 1em 3em;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #25525e;
+}
+.dropbtn {
+  padding: 16px 20px;
+}
+
+.dropdown,
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  transition: 0.3s;
+}
+.dropdown2 {
+  width: 100%;
+}
+
+.dropdown-content,
+.dropdown2-content {
+  margin-top: 14px;
+  display: none;
+  height: 0px;
+  position: absolute;
+  background-color: #0e737f;
+  min-width: 220px;
+  transition: 0.3s;
+  color: white;
+}
+.dropdown2-content {
+  margin-top: -42px;
+}
+
+.dropdown-content a,
+.dropdown2-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height: fit-content !important;
+  color: white;
+  transition: 0.3s;
+  text-transform: initial;
+  border-bottom: 1px solid grey;
+  background-color: #0e737f;
+}
+
+.dropdown-content a:hover,
+.dropdown2-content a:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown2:hover .dropdown2-content {
+  display: block;
+  height: fit-content !important;
+  transition: 0.3s;
+}
+.dropdown:hover {
+  color: black;
+  transition: 0.3s;
+}
+.dropdown2-content {
+  margin-left: 220px;
+}
+.logo {
+  width: 83px;
+  height: 150px;
+  margin-left: 100px;
+}
+.logoheader {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  padding-left: 0px;
+}
+
+.right {
+  float: right;
+  display: inline;
+  padding-right: 60px;
+  padding-top: 60px;
+}
+.right i {
+  font-size: 2em !important;
+  color: white;
+}
+.float-right {
+  float: right;
+  position: relative;
+}
+.left {
+  display: inline;
+}
+
+.top-bar {
+  background-color: #25525e;
+  width: 100%;
+  top: 0;
+  padding: 1em 2em 2em 2em;
+  font-weight: 100;
+  font-size: 0.6em;
+}
+
+.top-bar span strong {
+  color: white;
+}
+
+.right span {
+  padding: 0em 0.5em;
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+}
+
+.right a:hover {
+  color: rgba(1, 146, 64) !important;
+  transition: 0.3s;
+  text-decoration: none;
+}
